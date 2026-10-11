@@ -1,7 +1,100 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h2>Hesap Silme Talebi</h2>
-    <p>Hesabınızı silmek için: <b>seninmailin@gmail.com</b> adresine mail atabilirsiniz.</p>
-  </body>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hesap Silme / Account Deletion - CoreHunt</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2 {
+            color: #1a73e8;
+        }
+        .last-updated {
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="#tr">Türkçe</a> | <a href="#en">English</a></p>
+
+    <section id="tr" lang="tr">
+    <h1>CoreHunt Hesap Silme</h1>
+    <p class="last-updated">Son güncelleme: 11 Ekim 2026</p>
+
+    <h2>1. Uygulama içinden silme</h2>
+    <ol>
+        <li>CoreHunt uygulamasını açın ve hesabınıza giriş yapın.</li>
+        <li>Alttaki <strong>Profil</strong> sekmesine dokunun.</li>
+        <li>Sağ üstteki <strong>Ayarlar</strong> (dişli) simgesine dokunun.</li>
+        <li><strong>Uygulama</strong> bölümünde <strong>"Hesabı sil"</strong> seçeneğine dokunun.</li>
+        <li>Uyarıyı okuyun ve <strong>"Sil"</strong> ile onaylayın.</li>
+    </ol>
+    <p>Apple ile giriş yaptıysanız (iOS) sizden Apple ile yeniden onay istenir ve Apple ile girişe ait yetkinin iptal edilmesi Apple'dan talep edilir. Güvenlik nedeniyle hata alırsanız çıkış yapıp tekrar giriş yapın ve yeniden deneyin.</p>
+
+    <h2>2. Neler silinir</h2>
+    <p>Silme işlemi geri alınamaz. Sunucudaki şu veriler hemen silinir:</p>
+    <ul>
+        <li>Profil ve hesap verileriniz (ad, e-posta, yaş, cinsiyet, boy, kilo, vücut yağ oranı, hedef, fitness seviyesi, kalori/makro hedefleri, seçtiğiniz program ve beslenme planı, uyku kayıtları)</li>
+        <li>İlerleme kayıtlarınız (kilo, vücut ölçüleri, egzersiz kayıtları, fotoğraf kayıtları)</li>
+        <li>Su tüketimi kayıtlarınız ve günlük su hedefiniz</li>
+        <li>Oluşturduğunuz özel antrenmanlar</li>
+        <li>Başarım ve istatistik verileriniz</li>
+        <li>Giriş hesabınız (Firebase Authentication)</li>
+    </ul>
+    <p>Google'ın sistemlerinden tamamen kaldırılması Google'ın kendi süreçlerine bağlı olarak kısa bir süre alabilir. Cihazınızda kalan dosyalar (ilerleme fotoğrafları, zamanlayıcı ön ayarları gibi) bu işlemle silinmez; bunları uygulamayı kaldırarak veya cihazınızdan silebilirsiniz.</p>
+
+    <h2>3. E-posta ile silme talebi</h2>
+    <p>Uygulamaya erişemiyorsanız, hesabınıza kayıtlı e-posta adresinden <strong>tankut.kemal27@gmail.com</strong> adresine <strong>"Hesap Silme Talebi"</strong> konulu bir e-posta gönderin. Talebiniz en geç <strong>30 gün</strong> içinde işlenir ve yukarıda sayılan verilerin tamamı silinir. Hesabın size ait olduğunu doğrulamak için e-postanın hesaba kayıtlı adresten gelmesi gerekir.</p>
+
+    <p>Daha fazla bilgi için Gizlilik Politikası'na bakın: privacy-policy.html</p>
+    </section>
+
+    <hr>
+
+    <section id="en" lang="en">
+    <h1>CoreHunt Account Deletion</h1>
+    <p class="last-updated">Last updated: October 11, 2026</p>
+
+    <h2>1. Delete in the App</h2>
+    <ol>
+        <li>Open the CoreHunt app and sign in.</li>
+        <li>Tap the <strong>Profil</strong> (Profile) tab at the bottom.</li>
+        <li>Tap the <strong>Ayarlar</strong> (Settings) gear icon at the top right.</li>
+        <li>In the <strong>Uygulama</strong> (App) section, tap <strong>"Hesabı sil"</strong> (Delete account).</li>
+        <li>Read the warning and confirm with <strong>"Sil"</strong> (Delete).</li>
+    </ol>
+    <p>If you signed in with Apple (iOS), you are asked to confirm with Apple again and the App asks Apple to revoke the Sign in with Apple authorization. If you get a security error, sign out, sign in again, and retry.</p>
+
+    <h2>2. What gets deleted</h2>
+    <p>Deletion cannot be undone. The following server-side data is deleted immediately:</p>
+    <ul>
+        <li>Your profile and account data (name, email, age, gender, height, weight, body-fat percentage, goal, fitness level, calorie/macro targets, selected program and nutrition plan, sleep entries)</li>
+        <li>Your progress entries (weight, body measurements, exercise logs, photo entries)</li>
+        <li>Your water intake entries and daily water goal</li>
+        <li>Custom workouts you created</li>
+        <li>Your achievements and stats</li>
+        <li>Your sign-in account (Firebase Authentication)</li>
+    </ul>
+    <p>Complete removal from Google's systems may take a short time according to Google's own processes. Files remaining on your device (such as progress photos and timer presets) are not removed by this; you can remove them by uninstalling the App or deleting them from your device.</p>
+
+    <h2>3. Request deletion by email</h2>
+    <p>If you cannot access the App, send an email with the subject <strong>"Hesap Silme Talebi"</strong> (Account Deletion Request) to <strong>tankut.kemal27@gmail.com</strong> from the email address registered to your account. Your request will be processed within <strong>30 days</strong> and all of the data listed above will be deleted. The email must come from the registered address so we can verify that the account is yours.</p>
+
+    <p>For more information, see the Privacy Policy: privacy-policy.html</p>
+    </section>
+</body>
 </html>
